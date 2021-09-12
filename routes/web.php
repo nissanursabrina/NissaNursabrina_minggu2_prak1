@@ -19,9 +19,6 @@ Route::get('/', function () {
 Route::get('about', function () {
     echo "Haiiii Nama saya Nissa Nursabrina dengan nim 2031710029";
 });
-Route::get('about', function () {
-    return "Haiiii Nama saya Nissa Nursabrina dengan nim 2031710029";
-}); //return dan echo sama saja
 Route::get('articles/{id}', function ($id) {
     return "Halaman Artikel dengan ID ".$id;
 });
