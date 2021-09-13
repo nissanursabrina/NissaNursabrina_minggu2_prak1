@@ -22,3 +22,5 @@ Route::get('about', function () {
 Route::get('articles/{id}', function ($id) {
     return "Halaman Artikel dengan ID ".$id;
 });
+
+//Nissa Nursabrina_2031710029_22_MI2E
